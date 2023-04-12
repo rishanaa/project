@@ -15,9 +15,9 @@ function Login() {
     <div className='login' style={{display:'flex'}}>
         <div>
       <h1>Sign In</h1>
-      <h5>New user? 
+      <h5 style={{fontSize:'18px',marginBottom:'15px'}}>New user? 
         <button 
-        style={{border:'none',backgroundColor:'white',color:'blue'}}
+        style={{border:'none',backgroundColor:'white',color:'blue',fontSize:'18px'}}
         >Create an account</button>
         </h5>
       <input type="text"
@@ -27,7 +27,7 @@ function Login() {
               className='input1'
               placeholder='Password'/><br/>
       <input type="checkbox" className='check'/>
-      <label htmlFor="check" style={{fontWeight:'700',fontSize:'13px'}}>Keep me signed in</label><br/>
+      <label htmlFor="check" style={{fontWeight:'700',fontSize:'13px',marginLeft:'10px'}}> Keep me signed in</label><br/>
       <button className='btn1' style={{backgroundColor:'black',color:'white',border:'none',padding:'8px',border:'2px solid black'}}
        onClick={() => {
         navigate("/home");
@@ -35,7 +35,7 @@ function Login() {
         Sign In</button>
       <div style={{display:'flex',marginTop:'10px'}}>
       <div className='border'></div>
-      <h5> Or Sign In With</h5>
+      <h5 style={{marginTop:'20px',marginBottom:'20px'}}> Or Sign In With</h5>
       <div className='border'></div>
       </div>
       <h2 style={{fontSize:'35px',display:'flex',justifyContent:'space-around'}}><AiOutlineGoogle /> 

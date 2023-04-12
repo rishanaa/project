@@ -49,13 +49,13 @@
  margin-bottom: 15px;
 }
 .login .input1{
-  width: 250px;
+  width: 270px;
 }
 .login .btn1{
   width: 270px;
 }
 .login .border{
-  width: 78px;
+  width: 55px;
   height: 1px;
   background-color: black;
   margin-top: 30px;
@@ -66,11 +66,20 @@
   margin-left: 70%;
   height: 90%;
 }
+.login h1{
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
 @media (max-width:1200px) {
   .login{
-    margin: 18% 10%;
+    margin: 38% 13%;
   }
   .login .image{
     display: none;
+  }
+  .login h1{
+    display: flex;
+    justify-content: center;
   }
 }
