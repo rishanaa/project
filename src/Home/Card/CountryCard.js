@@ -22,13 +22,10 @@ function CountryCard() {
             <div className='d-flex align-items-center justify-content-center p-2'>
                 <img src={item?.flag} alt='' width={"50px"} height={"50px"}/>
               </div>
-              {/* <div className='d-flex  justify-content-center align-items-center'> */}
-
               <div className='d-flex  justify-content-center m-2 p-1' style={{flexDirection:"column"}}>
                 <h3>{item?.name}</h3>
                 <p>{item?.region}
                 </p>
-              {/* </div> */}
               </div>
             </div>
         
