@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -34,5 +34,43 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* login */
+
+.login{
+  margin: 7% 14%;
+}
+.login input{
+ border-radius: 0px;
+ border: 2px solid black;
+ padding: 8px;
+ margin-bottom: 15px;
+}
+.login .input1{
+  width: 250px;
+}
+.login .btn1{
+  width: 270px;
+}
+.login .border{
+  width: 78px;
+  height: 1px;
+  background-color: black;
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.login .image{
+  margin-left: 70%;
+  height: 90%;
+}
+@media (max-width:1200px) {
+  .login{
+    margin: 18% 10%;
+  }
+  .login .image{
+    display: none;
   }
 }
